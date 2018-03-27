@@ -36,8 +36,8 @@ type Variant struct {
 	Position             int              `json:"position"`
 	Grams                int              `json:"grams"`
 	InventoryPolicy      string           `json:"inventory_policy"`
-	Price                *decimal.Decimal `json:"price"`
-	CompareAtPrice       *decimal.Decimal `json:"compare_at_price"`
+	Price                string			  `json:"price"`
+	CompareAtPrice       string			  `json:"compare_at_price"`
 	FulfillmentService   string           `json:"fulfillment_service"`
 	InventoryManagement  string           `json:"inventory_management"`
 	Option1              string           `json:"option1"`
@@ -49,7 +49,7 @@ type Variant struct {
 	Barcode              string           `json:"barcode"`
 	ImageID              int              `json:"image_id"`
 	InventoryQuantity    int              `json:"inventory_quantity"`
-	Weight               *decimal.Decimal `json:"weight"`
+	Weight               string			  `json:"weight"`
 	WeightUnit           string           `json:"weight_unit"`
 	OldInventoryQuantity int              `json:"old_inventory_quantity"`
 	RequireShipping      bool             `json:"requires_shipping"`
