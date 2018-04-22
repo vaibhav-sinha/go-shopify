@@ -3,8 +3,6 @@ package goshopify
 import (
 	"fmt"
 	"time"
-
-	"github.com/shopspring/decimal"
 )
 
 const variantsBasePath = "admin/variants"
